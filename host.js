@@ -110,7 +110,7 @@ function getRandomInt(min, max) {
 				document.getElementById("thisplayerloadingAnimation").style.display = 'block'; 
 				checkLoad(1);
 				thisPlayerAnimationEnd();
-				loadButton.style.visibility = 'hidden';	
+		
 			}
 			
 		
@@ -334,8 +334,6 @@ function getRandomInt(min, max) {
 		player1Loaded = 0;
 		player2Loaded = 0;
 		randomTime = null;
-		
-		document.getElementById("loadButton").style.visibility = 'visible'; //or wtvr it is; this will be removed
 
 		var img = document.getElementById("otherplayerloadingAnimation"); //resetting gif playback
 		var imageUrl = img.src;

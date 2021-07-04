@@ -146,7 +146,6 @@ function loadFunction(){
     document.getElementById("thisplayerloadingAnimation").style.display = 'block'; 
     signal("player2loaded");
     thisPlayerAnimationEnd();
-    loadButton.style.visibility = 'hidden';	
 }
 
 var thisLoadingAnimationsFuture;
@@ -289,7 +288,7 @@ function reset(){
     var player1Loaded = 0;
     var player2Loaded = 0;
     var randomTime = null;
-    document.getElementById("loadButton").style.visibility = 'visible'; //or wtvr it is
+   
 
     var img = document.getElementById("otherplayerloadingAnimation");
     var imageUrl = img.src;
